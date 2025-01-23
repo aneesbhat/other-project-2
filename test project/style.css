@@ -1,0 +1,18 @@
+.main_block {
+	width:1000px;
+	height:540px;
+	background:lightblue;
+	margin:auto;
+	background-image:url("images/arrow.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+
+
+}
+
+.head1 {
+	width:500px;
+	height:100px;
+	background-color:black;
+	color:white;
+}

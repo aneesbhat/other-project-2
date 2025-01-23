@@ -1,0 +1,36 @@
+.main {
+    width:300px;
+    height:300px;
+    margin:auto;
+    background-color:aquamarine;
+    border-radius: 50%;
+    position:relative;
+   
+}
+
+.image1 {
+    width:300px;
+    height:300px;
+    margin:auto;
+    border-radius:50%;
+    transition:1s;
+}
+
+.image2 {
+    width:200px;
+    height:200px;
+    margin:auto;
+    border-radius:50%;
+    position:absolute;
+    top:50px;
+    left:50px;
+    transition:1s;
+}
+
+.main:hover .image1 {
+    transform:rotateX(360deg);
+}
+
+.main:hover .image2 {
+    transform:rotateY(360deg);
+}

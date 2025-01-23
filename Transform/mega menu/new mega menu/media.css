@@ -1,0 +1,9 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .mid {
+        flex-direction:column;
+    }
+
+    #right button {
+        position:sticky;
+    }
+}

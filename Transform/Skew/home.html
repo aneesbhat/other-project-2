@@ -1,0 +1,53 @@
+<html>
+<html>
+<head>
+    <title>Skew</title>
+
+    <style>
+
+        body {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        button {
+            padding:10px 20px;
+            background-color:transparent;
+            border:none;
+            border-radius:4px;
+            color:white;
+            font-size:14px;
+            font-family:sans-serif;
+            position: relative;
+        }
+
+        button::after {
+            content:'';
+            width:100%;
+            height:100%;
+            background-color:lightgreen;
+            position:absolute;
+            border-radius:4px;
+            left:0px;
+            top:0px;
+            z-index:-1;
+        }
+
+        button:hover::after {
+            transform:skewY(10deg);
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+
+    <button>
+        Skew
+    </button>
+
+</main>
+    
+</body>
+</html>

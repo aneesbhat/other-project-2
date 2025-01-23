@@ -1,0 +1,35 @@
+*{
+    font-family:sans-serif;
+}
+
+.main {
+    width:300px;
+    height:300px;
+    margin:auto;
+    background-color:aqua;
+    overflow:hidden;
+}
+
+
+.image-1 {
+    width:300px;
+    height:300px;
+    transition:1s;
+}
+
+.image-2 {
+    width:300px;
+    height:300px;
+    transition:1s;
+}
+
+.main:hover .image-1 {
+    transform:translateX(300px);
+}
+
+.main:hover .image-2 {
+    transform:translateY(-300px);
+}
+
+
+
